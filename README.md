@@ -750,7 +750,8 @@ To deploy an application with ArgoCD, you can follow these steps, which I'll out
    - `syncPolicy`: Configure the sync policy, including automatic syncing, pruning, and self-healing.
 
 4. **Access your Application**
-   - To Access the app make sure port 30007 is open in your security group and then open a new tab paste your NodeIP:30007, your app should be running.
+   - To Access the app make sure port 30007 is open in your security group and then open a new tab paste your NodeIP:30007, your app should be running. 
+   and don't forget to remove the cluster.
 
 **Phase 7: Cleanup**
 
